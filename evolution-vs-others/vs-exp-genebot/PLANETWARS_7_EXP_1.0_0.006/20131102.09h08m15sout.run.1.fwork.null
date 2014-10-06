@@ -1,0 +1,68 @@
+algorithm.evolutionary.crossover.prob = 1.0
+algorithm.evolutionary.generations = 50
+algorithm.evolutionary.mutator.prob = 0.006
+algorithm.evolutionary.population.size = 32
+algorithm.evolutionary.selector.size = 16
+algorithm.evolutionary.selector.tournament.size = 2
+configuration.log.folder = /home/pgarcia/PlanetWarsLogs
+configuration.numthreads = 4
+planetwars.depth.initial = 3
+planetwars.depth.max = 7
+planetwars.environment.folder = /home/pgarcia/launcherPlanetWarsENT2/environment
+planetwars.environment.mapsfolder = maps
+planetwars.fitness.maplist = map76.txt map69.txt map7.txt map11.txt map26.txt
+planetwars.fitness.runspermap = 1
+planetwars.perc.stepsize = 0.25
+problem.name = PLANETWARS_7_EXP
+/home/pgarcia/PlanetWarsLogs/PLANETWARS_7_EXP_1.0_0.006/20131102.09h08m15sout.run.1.fwork.null
+IT;EVALUATIONS;TIME;BEST_F;AVERAGE_F;BEST_DEPTH;AVERAGE_DEPTH;BEST_SIZE;AVERAGE_SIZE;BEST_AGE;AVERAGE_AGE;
+0;0;277205;;(3.0-315.0);(0.3125-657.53125);3;3.0625;7;6.9375;1;1.0;if(actualMyShipsRatio<0.561)if(myShipsEnemyRatio<0.730)attackBeneficiousEnemyPlanet(0.853);else attackEnemyBase(0.526);else if(myShipsLandedFlyingRatio<0.402)attackQuickEnemyPlanet(0.327);else attackBase(0.997);
+1;0;465016;;(2.0-823.0);(0.65625-686.4375);3;3.09375;7;6.875;2;1.71875;if(actualMyShipsRatio<0.561)if(myShipsEnemyRatio<0.730)attackBeneficiousEnemyPlanet(0.853);else attackEnemyBase(0.579);else if(myPlanetsTotalRatio<0.402)attackQuickEnemyPlanet(0.327);else attackBase(0.997);
+2;0;645665;;(3.0-395.0);(0.78125-700.375);3;3.1875;7;7.0;2;2.28125;if(actualMyShipsRatio<0.561)if(myShipsEnemyRatio<0.730)attackBeneficiousEnemyPlanet(0.853);else attackEnemyBase(0.579);else if(myPlanetsTotalRatio<0.402)attackQuickEnemyPlanet(0.327);else attackNearestNeutralPlanet(1.000);
+3;0;834195;;(3.0-320.0);(1.0625-732.125);3;3.28125;5;7.1875;2;2.59375;if(myPlanetsTotalRatio<0.741)if(myPlanetsTotalRatio<0.645)attackNearestEnemyPlanet(0.661);else attackBeneficiousPlanet(0.410);else attackWeakestEnemyPlanet(0.186);
+4;0;1033109;;(3.0-143.0);(1.375-729.46875);4;3.25;7;7.1875;1;2.78125;if(myPlanetsTotalRatio<0.741)if(myPlanetsTotalRatio<0.645)attackNearestEnemyPlanet(0.661);else if(myShipsEnemyRatio<0.638)reinforceBase(0.472);else attackNearestNeutralPlanet(0.186);else attackWeakestEnemyPlanet(0.186);
+5;0;1232082;;(3.0-468.0);(1.65625-612.6875);3;3.25;5;7.0;3;3.28125;if(myPlanetsEnemyRatio<0.004)if(myShipsEnemyRatio<0.358)attackNearestPlanet(0.502);else attackEnemyBase(0.915);else attackNearestEnemyPlanet(0.661);
+6;0;1410264;;(4.0-140.0);(2.125-503.4375);3;3.25;5;7.125;5;3.15625;if(myPlanetsTotalRatio<0.741)if(myPlanetsTotalRatio<0.645)attackNearestEnemyPlanet(0.661);else attackBeneficiousPlanet(0.410);else attackWeakestEnemyPlanet(0.186);
+7;0;1593691;;(5.0-0.0);(2.25-484.40625);2;3.1875;3;6.75;1;3.0625;if(myShipsLandedFlyingRatio<0.233)attackNearestEnemyPlanet(0.661);else attackNearestEnemyPlanet(1.000);
+8;0;1774476;;(3.0-311.0);(2.375-463.21875);3;3.15625;5;6.5625;1;3.40625;if(actualMyShipsRatio<0.561)attackNearestEnemyPlanet(0.661);else if(myPlanetsTotalRatio<0.202)attackRandomPlanet(0.459);else attackNearestEnemyPlanet(1.000);
+9;0;1960235;;(4.0-179.0);(2.4375-473.6875);2;3.09375;3;6.375;3;3.46875;if(myShipsLandedFlyingRatio<0.233)attackNearestEnemyPlanet(0.661);else attackNearestEnemyPlanet(1.000);
+10;0;2140672;;(4.0-180.0);(2.34375-422.25);2;3.0625;3;5.9375;4;3.40625;if(myShipsLandedFlyingRatio<0.233)attackNearestEnemyPlanet(0.661);else attackNearestEnemyPlanet(1.000);
+11;0;2318345;;(4.0-208.0);(2.59375-312.71875);4;3.09375;7;5.9375;5;3.3125;if(myShipsLandedFlyingRatio<0.233)if(myPlanetsTotalRatio<0.730)if(myShipsEnemyRatio<0.730)attackBeneficiousEnemyPlanet(0.853);else attackEnemyBase(0.579);else attackEnemyBase(0.579);else attackNearestEnemyPlanet(1.000);
+12;0;2495708;;(4.0-184.0);(2.71875-351.65625);2;3.0625;3;6.0625;1;3.59375;if(actualMyShipsRatio<0.561)attackNearestEnemyPlanet(0.661);else attackRandomPlanet(0.579);
+13;0;2674242;;(4.0-168.0);(2.65625-339.875);4;3.09375;7;6.0;3;3.40625;if(actualMyShipsRatio<0.561)attackQuickEnemyPlanet(0.661);else if(myPlanetsTotalRatio<0.402)if(myShipsEnemyRatio<0.730)attackBeneficiousEnemyPlanet(1.000);else attackEnemyBase(0.579);else attackNearestEnemyPlanet(1.000);
+14;0;2845146;;(4.0-186.0);(2.90625-286.5625);3;2.96875;5;5.5625;4;3.3125;if(actualMyShipsRatio<0.561)attackNearestEnemyPlanet(1.000);else if(myPlanetsTotalRatio<0.402)attackQuickEnemyPlanet(0.107);else attackNearestEnemyPlanet(1.000);
+15;0;3023469;;(4.0-167.0);(2.90625-343.25);3;2.96875;5;5.5;6;3.34375;if(actualMyShipsRatio<0.561)attackNearestEnemyPlanet(1.000);else if(myPlanetsTotalRatio<0.402)attackQuickEnemyPlanet(0.327);else doNothing(0.997);
+16;0;3198758;;(5.0-0.0);(3.15625-281.53125);4;2.96875;7;5.375;1;3.5;if(myShipsLandedFlyingRatio<0.233)if(myPlanetsTotalRatio<0.730)if(myShipsEnemyRatio<0.730)reinforceNearestPlanet(0.900);else attackEnemyBase(0.579);else attackEnemyBase(0.579);else attackNearestEnemyPlanet(0.900);
+17;0;3378152;;(4.0-198.0);(3.1875-287.46875);3;2.9375;5;5.125;2;3.75;if(actualMyShipsRatio<0.561)attackNearestEnemyPlanet(1.000);else if(myPlanetsEnemyRatio<0.402)attackNearestEnemyPlanet(0.599);else doNothing(0.997);
+18;0;3556860;;(4.0-231.0);(3.5-187.46875);2;3.0625;3;5.375;4;3.46875;if(actualMyShipsRatio<0.561)attackNearestEnemyPlanet(0.900);else attackEnemyBase(0.579);
+19;0;3731974;;(4.0-187.0);(3.5-186.0625);3;3.15625;5;5.4375;4;3.90625;if(myPlanetsTotalRatio<0.741)if(myShipsEnemyRatio<0.730)attackNearestEnemyPlanet(0.853);else attackEnemyBase(0.492);else attackNearestEnemyPlanet(1.000);
+20;0;3909259;;(4.0-227.0);(3.65625-180.75);3;3.1875;5;5.375;8;3.4375;if(myPlanetsTotalRatio<0.741)if(myShipsEnemyRatio<0.730)attackNearestEnemyPlanet(0.853);else attackEnemyBase(0.579);else attackNearestEnemyPlanet(0.661);
+21;0;4083375;;(4.0-195.0);(3.625-180.78125);3;3.40625;5;5.875;2;3.28125;if(myPlanetsTotalRatio<0.741)if(myShipsEnemyRatio<0.730)attackNearestEnemyPlanet(0.853);else attackEnemyBase(0.492);else attackNearestEnemyPlanet(0.464);
+22;0;4256524;;(4.0-197.0);(3.59375-190.90625);2;3.5625;3;6.1875;16;3.84375;if(myShipsLandedFlyingRatio<0.233)attackNearestEnemyPlanet(0.661);else attackNearestEnemyPlanet(1.000);
+23;0;4429371;;(4.0-177.0);(3.53125-205.5625);3;3.59375;5;6.25;5;4.25;if(actualMyShipsRatio<0.561)attackNearestEnemyPlanet(1.000);else if(myPlanetsEnemyRatio<0.402)attackNearestEnemyPlanet(0.599);else attackNearestEnemyPlanet(0.973);
+24;0;4605559;;(4.0-211.0);(3.375-223.75);2;3.625;3;6.3125;4;3.71875;if(actualMyShipsRatio<0.561)attackNearestEnemyPlanet(0.926);else attackNearestEnemyPlanet(0.853);
+25;0;4784100;;(4.0-190.0);(3.71875-184.84375);2;3.40625;3;5.875;2;3.9375;if(actualMyShipsRatio<0.561)attackNearestEnemyPlanet(0.904);else attackBeneficiousEnemyPlanet(1.000);
+26;0;4953488;;(4.0-175.0);(3.59375-180.34375);2;3.1875;3;5.375;12;3.90625;if(actualMyShipsRatio<0.561)attackNearestEnemyPlanet(0.900);else attackEnemyBase(0.579);
+27;0;5124386;;(5.0-0.0);(3.5-198.71875);2;3.28125;3;5.5625;1;3.96875;if(actualMyShipsRatio<0.561)attackNearestEnemyPlanet(0.961);else attackBeneficiousEnemyPlanet(0.579);
+28;0;5298465;;(4.0-196.0);(3.625-186.34375);2;3.1875;3;5.375;3;4.34375;if(actualMyShipsRatio<0.561)attackNearestEnemyPlanet(1.000);else attackNearestEnemyPlanet(0.850);
+29;0;5471331;;(4.0-185.0);(3.53125-205.1875);3;3.15625;5;5.375;4;4.375;if(myShipsLandedFlyingRatio<0.233)attackNearestEnemyPlanet(0.661);else if(actualMyShipsRatio<0.249)attackNearestEnemyPlanet(1.000);else attackEnemyBase(0.978);
+30;0;5646542;;(4.0-258.0);(3.65625-197.90625);3;3.28125;5;5.625;6;4.59375;if(actualMyShipsRatio<0.561)attackNearestEnemyPlanet(1.000);else if(myShipsEnemyRatio<0.730)attackWealthestPlanet(0.579);else attackEnemyBase(0.579);
+31;0;5815181;;(4.0-169.0);(3.59375-172.78125);2;3.4375;3;6.0;6;3.9375;if(actualMyShipsRatio<0.561)attackNearestEnemyPlanet(0.961);else attackNearestEnemyPlanet(0.599);
+32;0;5983479;;(4.0-187.0);(3.4375-188.65625);2;3.3125;3;5.6875;7;4.34375;if(actualMyShipsRatio<0.561)attackNearestEnemyPlanet(1.000);else attackNearestEnemyPlanet(0.850);
+33;0;6159427;;(4.0-211.0);(3.8125-170.25);2;3.5;3;6.1875;4;4.3125;if(actualMyShipsRatio<0.561)attackNearestEnemyPlanet(0.973);else attackWeakestEnemyPlanet(0.066);
+34;0;6333277;;(4.0-188.0);(3.71875-187.28125);3;3.46875;5;6.125;7;4.65625;if(actualMyShipsRatio<0.561)attackNearestEnemyPlanet(0.900);else if(myShipsEnemyRatio<0.730)attackWealthestPlanet(0.579);else attackEnemyBase(0.769);
+35;0;6506488;;(4.0-212.0);(3.625-173.25);3;3.46875;5;6.25;10;4.15625;if(myShipsLandedFlyingRatio<0.233)attackNearestEnemyPlanet(0.661);else if(actualMyShipsRatio<0.249)attackNearestEnemyPlanet(1.000);else attackEnemyBase(0.978);
+36;0;6681801;;(5.0-0.0);(3.6875-183.84375);2;3.53125;3;6.4375;7;4.46875;if(actualMyShipsRatio<0.561)attackNearestEnemyPlanet(0.973);else attackWeakestEnemyPlanet(0.066);
+37;0;6860760;;(4.0-193.0);(3.53125-222.75);2;3.6875;3;7.0;5;4.25;if(actualMyShipsRatio<0.561)attackNearestEnemyPlanet(0.926);else attackWealthestEnemyPlanet(0.961);
+38;0;7030114;;(4.0-164.0);(3.53125-188.78125);5;3.90625;11;8.0;1;4.21875;if(actualMyShipsRatio<0.561)attackNearestEnemyPlanet(0.858);else if(myShipsEnemyRatio<0.402)if(myShipsEnemyRatio<0.730)if(myPlanetsEnemyRatio<0.521)attackEnemyBase(0.681);else attackBeneficiousEnemyPlanet(1.000);else attackEnemyBase(0.579);else if(myShipsEnemyRatio<0.730)attackBeneficiousEnemyPlanet(1.000);else attackEnemyBase(0.579);
+39;0;7206437;;(4.0-222.0);(3.625-219.40625);4;3.875;7;7.875;3;4.6875;if(myShipsLandedFlyingRatio<0.233)attackNearestEnemyPlanet(0.661);else if(actualMyShipsRatio<0.249)if(myShipsEnemyRatio<0.730)attackBeneficiousEnemyPlanet(1.000);else attackNearestEnemyPlanet(0.579);else attackNearestEnemyPlanet(1.000);
+40;0;7383413;;(4.0-194.0);(3.6875-176.96875);5;3.9375;9;7.875;3;4.75;if(actualMyShipsRatio<0.561)attackNearestEnemyPlanet(0.858);else if(myShipsEnemyRatio<0.402)if(actualMyShipsRatio<0.072)attackNeutralBase(0.066);else if(myPlanetsEnemyRatio<0.730)attackBeneficiousEnemyPlanet(1.000);else attackEnemyBase(0.978);else attackNearestEnemyPlanet(1.000);
+41;0;7561994;;(4.0-199.0);(3.78125-170.375);2;3.78125;3;7.1875;1;4.96875;if(actualMyShipsRatio<0.561)attackNearestEnemyPlanet(1.000);else attackWealthestPlanet(0.066);
+42;0;7737085;;(4.0-197.0);(3.625-198.90625);2;3.8125;3;7.25;3;3.875;if(actualMyShipsRatio<0.561)attackNearestEnemyPlanet(0.964);else attackNearestEnemyPlanet(0.977);
+43;0;7911330;;(4.0-182.0);(3.53125-182.5);7;3.84375;19;7.5;1;4.0;if(actualMyShipsRatio<0.561)attackNearestEnemyPlanet(0.942);else if(myShipsLandedFlyingRatio<0.402)if(myShipsEnemyRatio<0.730)if(myShipsEnemyRatio<0.402)attackWeakestNeutralPlanet(1.000);else attackWeakestEnemyPlanet(0.579);else attackNearestEnemyPlanet(0.369);else if(myShipsLandedFlyingRatio<0.402)attackBeneficiousPlanet(0.520);else if(myShipsLandedFlyingRatio<0.402)if(myShipsEnemyRatio<0.730)if(actualLandedFlyingRatio<0.249)attackNearestEnemyPlanet(1.000);else attackEnemyBase(0.978);else attackNearestEnemyPlanet(0.369);else if(myShipsLandedFlyingRatio<0.402)attackBeneficiousPlanet(0.520);else attackNearestEnemyPlanet(0.977);
+44;0;8082558;;(4.0-193.0);(3.53125-201.1875);2;3.625;3;6.875;6;4.5;if(actualMyShipsRatio<0.561)attackNearestEnemyPlanet(1.000);else attackNearestEnemyPlanet(0.977);
+45;0;8258167;;(4.0-169.0);(3.71875-200.34375);3;3.5;5;6.3125;7;4.53125;if(actualMyShipsRatio<0.561)attackNearestEnemyPlanet(1.000);else if(myPlanetsTotalRatio<0.402)attackWeakestNeutralPlanet(0.757);else attackNearestEnemyPlanet(0.657);
+46;0;8432269;;(4.0-179.0);(3.5625-180.03125);4;3.5;7;6.125;2;3.5625;if(myShipsLandedFlyingRatio<0.233)attackNearestEnemyPlanet(0.657);else if(actualLandedFlyingRatio<0.249)attackNearestEnemyPlanet(1.000);else if(myShipsEnemyRatio<0.730)attackBeneficiousEnemyPlanet(0.661);else attackEnemyBase(0.511);
+47;0;8601822;;(4.0-180.0);(3.5-195.28125);4;3.40625;7;5.9375;3;3.5625;if(actualMyShipsRatio<0.561)attackNearestEnemyPlanet(0.858);else if(myShipsEnemyRatio<0.402)if(myShipsEnemyRatio<0.730)attackNearestEnemyPlanet(0.661);else attackNearestEnemyPlanet(0.369);else attackNeutralBase(0.849);
+48;0;8774623;;(4.0-187.0);(3.53125-205.21875);2;3.28125;3;5.625;1;3.4375;if(myShipsLandedFlyingRatio<0.233)attackNearestEnemyPlanet(0.596);else attackNearestEnemyPlanet(1.000);
+49;0;8944610;;(4.0-182.0);(3.53125-189.625);3;3.21875;5;5.5625;8;3.34375;if(actualMyShipsRatio<0.561)attackNearestEnemyPlanet(0.942);else if(myShipsLandedFlyingRatio<0.402)attackNearestEnemyPlanet(0.615);else attackNearestEnemyPlanet(0.646);
